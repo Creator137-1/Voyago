@@ -25,6 +25,10 @@
     margin-top: 40px;
 }
 
+.icons i {
+    font-size: 20px;
+}
+
 .left {
     flex: 8;
 }
@@ -60,9 +64,8 @@ i {
 }
 
 footer {
-    background-image: url(images/footer.jpeg);
+   
     color: white;
-    padding: 100px;
 }
 
 footer li {
@@ -76,7 +79,10 @@ footer li {
     text-align: left !important;
 }
 
-.footer .row {
+.footer .row:first-child {
+    background-image: url(images/footer.jpeg);
+    background-position: bottom;
+    padding: 50px 50px 0 50px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -118,30 +124,30 @@ i {
     display: flex;
     color: #F26522;
     text-decoration: none;
+    width: fit-content;
 }
 
 a {
     text-decoration: none;
 }
 
-.container {
-    display: flex;
-}
+
 
 .fat i{
     display: flex;
     font-size: 20px;
+    padding: 2px 0;
 }
 
 .fat li {
     display: flex;
+    align-items: start;
+    gap: 10px;
 }
 
-.col { 
-    align-items: center;
-    justify-content: center;
+.container-fluid {
+    padding: 0;
 }
-
 .got {
     border-radius: 6px;
     padding: 10px 20px;
@@ -152,4 +158,11 @@ a {
 .got:hover {
     background-color: #F26522;
     cursor: pointer;
+}
+
+.duck {
+    display: flex;
+    justify-content: space-between;
+    background-color: #001E36;
+    padding: 20px 50px;
 }
