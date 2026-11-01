@@ -1,0 +1,155 @@
+.sub-footer {
+    display: flex;
+    background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0)), url(images/subfooter.jpeg);
+    background-position: 10% 30%;
+    padding: 100px;
+}
+
+.subscribe {
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.subscribe .button {
+    background-color: red;
+    color: white;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    margin-top: 40px;
+}
+
+.left {
+    flex: 8;
+}
+
+.right {
+    flex: 4;
+}
+
+i {
+    display: flex;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.tagger {
+    background-color: #003B5C;
+    color: white;
+}
+
+.mapping {
+    background-color: #008B9B;
+    color: white;
+}
+
+.staring {
+    background-color: #F26522;
+    color: white;
+}
+
+.filling {
+    background-color: #002B49;
+    color: white;
+}
+
+footer {
+    background-image: url(images/footer.jpeg);
+    color: white;
+    padding: 100px;
+}
+
+footer li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+
+
+.footer .container {
+    text-align: left !important;
+}
+
+.footer .row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer h4 {
+    margin-bottom: 15px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social a i {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.social a:hover i {
+    color: darkred;
+    cursor: pointer;
+}
+
+i {
+    display: flex;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.fat a i { 
+    display: flex;
+    color: #F26522;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+.fat i{
+    display: flex;
+    font-size: 20px;
+}
+
+.fat li {
+    display: flex;
+}
+
+.col { 
+    align-items: center;
+    justify-content: center;
+}
+
+.got {
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #01C6D3;
+    color: white;
+}
+
+.got:hover {
+    background-color: #F26522;
+    cursor: pointer;
+}
