@@ -1,3 +1,7 @@
+.navbar-collapse {
+    flex-grow: 0;
+}
+
 .sub-footer {
     display: flex;
     background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0)), url(images/subfooter.jpeg);
@@ -64,7 +68,7 @@ i {
 }
 
 footer {
-   
+    background-color: #001E36;
     color: white;
 }
 
@@ -114,6 +118,8 @@ footer li {
     cursor: pointer;
 }
 
+
+
 i {
     display: flex;
     border-radius: 50%;
@@ -151,7 +157,7 @@ a {
 .got {
     border-radius: 6px;
     padding: 10px 20px;
-    background-color: #01C6D3;
+    background-color: #F99B37;
     color: white;
 }
 
@@ -161,8 +167,50 @@ a {
 }
 
 .duck {
+    border-top: 1px solid white;
     display: flex;
     justify-content: space-between;
-    background-color: #001E36;
+    margin: 20px 50px;
     padding: 20px 50px;
+}
+
+/* slider */
+.carousel-caption {
+    text-align: left;
+    bottom: 20%;
+    background-color: #001e367e;
+    padding: 2rem;
+    width: 50%;
+    height: fit-content;
+    left: 10%;
+    right: auto;
+}
+
+.carousel-caption img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tony {
+    background-image: url(images/destinate.png);
+    height: 38%;
+    width: 50%;
+    background-position: 10% 30%;
+    padding: 100px;
+}
+
+.fanbase {
+    display: flex;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.fanbase div {
+    display: flex;
+    background-color: #f8f7f7;
+    width: 90%;
+    margin: auto; 
+    justify-content: space-between;
+    padding: 3rem;
 }
