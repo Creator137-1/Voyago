@@ -126,7 +126,7 @@ i {
     width: 50px;
 }
 
-.fat a i { 
+.fat a i {
     display: flex;
     color: #F26522;
     text-decoration: none;
@@ -139,7 +139,7 @@ a {
 
 
 
-.fat i{
+.fat i {
     display: flex;
     font-size: 20px;
     padding: 2px 0;
@@ -154,6 +154,7 @@ a {
 .container-fluid {
     padding: 0;
 }
+
 .got {
     border-radius: 6px;
     padding: 10px 20px;
@@ -216,4 +217,19 @@ a {
 .tich:hover {
     cursor: pointer;
     background-color: #01C6D4;
+}
+
+.Alli {
+    margin-top: -50px;
+}
+
+.Alli .container {
+    background-color: #f8f7f7;
+    width: 90%;
+    margin: auto;
+    transform: translateY(-2rem);
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    font-size: 0.8rem;
 }
