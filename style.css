@@ -326,3 +326,95 @@ a {
 .hero p {
     color: white;
 }
+
+div input {
+    display: grid;
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid #2c292c;
+}
+
+.triple .boy div {
+    display: flex;
+    gap: 3rem;
+    text-align: left;
+}
+
+.indian {
+    background-image: url(images/plane.png);
+    height: 100%;
+    width: 100%;
+    background-position: 100% 20%;
+    padding: 100px;
+    color: white;
+}
+
+.about {
+    display: flex;
+    gap: 4rem;
+    padding: 4rem;
+    align-items: center;
+}
+
+.about p {
+    margin-bottom: 10px;
+
+}
+
+.about .left {
+    flex: 1;
+    transition: all 0.3s;
+}
+
+.about .right {
+    flex: 1;
+}
+
+.about img {
+    border-radius: 4%;
+}
+
+.story {
+    background-color: #018AA4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 21px;
+    width: 27%;
+}
+
+.indomie i {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    font-size: 20px;
+    padding: 2px 0;
+}
+
+.trust {
+    text-align: center;
+    border-radius: 21px;
+    padding: 10px 20px;
+    background-color: #018BA5;
+    color: white;
+}
+
+.rights {
+    background-image: url(images/Back.png);
+}
+
+.ghost {
+    display: flex;
+}
+
+hr {
+    width: 100px;
+    border: 1px solid black;
+}
+
+.ford {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
