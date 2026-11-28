@@ -102,66 +102,100 @@
             </div>
         </main>
 
-        <main class="joyboy">
-            <section class="triple">
-                <div class="boy">
-                    <h4>Send Us an Enquiry</h4>
-                    <p>Tell us about your travel plans, and our team will be happy to assist you</p>
+        <section class="contact-enquiry">
+            <div class="enquiry-container">
+                <div class="idk">
+                    <h2>Send Us an Enquiry</h2>
+                    <p>Tell us about your travel plans, and our team will be happy to assist you.</p>
+
+                    <form>
+                        <div class="form-row">
+                            <div class="just">
+                                <label for="full-name">Full Name *</label>
+                                <input type="text" id="full-name" placeholder="Enter your full name" required>
+                            </div>
+
+                            <div class="just">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" placeholder="Enter your email address" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="just">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                            </div>
+
+                            <div class="just">
+                                <label for="destination">Destination *</label>
+                                <select id="destination" required>
+                                    <option value="">Select destination</option>
+                                    <option>Maldives</option>
+                                    <option>Dubai</option>
+                                    <option>Paris</option>
+                                    <option>Cape Town</option>
+                                    <option>Bali</option>
+                                    <option>Zanzibar</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="just">
+                                <label for="departure">Departure Date *</label>
+                                <input type="date" id="departure" required>
+                            </div>
+
+                            <div class="just">
+                                <label for="return">Return Date *</label>
+                                <input type="date" id="return" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="just">
+                                <label for="travellers">Number of Travellers *</label>
+                                <select id="travellers" required>
+                                    <option value="">Select number</option>
+                                    <option>1 Traveller</option>
+                                    <option>2 Travellers</option>
+                                    <option>3 Travellers</option>
+                                    <option>4 Travellers</option>
+                                    <option>5 or more Travellers</option>
+                                </select>
+                            </div>
+
+                            <div class="just">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" required>
+                                    <option value="">Select subject</option>
+                                    <option>Holiday Package</option>
+                                    <option>Flight Booking</option>
+                                    <option>Hotel Reservation</option>
+                                    <option>General Enquiry</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="just">
+                            <label for="message">Message *</label>
+                            <textarea id="message" placeholder="Tell us about your travel plans..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="send-button">➤ Send Message</button>
+                    </form>
+                </div>
+
+                <div class="enquiry">
                     <div>
-                        <aside>
-                            <label for="">Full Name</label><br>
-                            <input type="text" name="" id="" placeholder="Enter Your Full Name">
-                        </aside>
-
-                        <aside>
-                            <label for="">Email Address</label>
-                            <input type="email" name="" id="" placeholder="Enter Your Email">
-                        </aside>
-
-                        <aside>
-                                    <label for="">Full Name</label><br>
-                                    <input type="text" name="" id="" placeholder="Enter Your Full Name">
-                                </aside>
+                        <h2>Let's Plan<br>Something Amazing</h2>
+                        <p>Your next adventure could be closer than you think. Get in touch with VOYAGO and start exploring the possibilities.</p>
+                        <a href="tour-packages.html">Explore Packages →</a>
                     </div>
                 </div>
-            </section>
-
-
-
-           <main>
-                <aside class="row">
-                    <div class="col-2">
-                        <section>
-                            <div>
-                                <aside>
-                                    <label for="">Full Name</label><br>
-                                    <input type="text" name="" id="" placeholder="Enter Your Full Name">
-                                </aside>
-
-                                <aside>
-                                    <label for="">Full Name</label><br>
-                                    <input type="text" name="" id="" placeholder="Enter Your Full Name">
-                                </aside>
-    
-                                <aside>
-                                    <label for="">Email Address</label>
-                                    <input type="email" name="" id="" placeholder="Enter Your Email">
-                                </aside>
-                            </div>
-                        </section>
-                    </div>
-                </aside>
-    
-                <aside class="rights">
-                    <div>
-                        <h3>Let's Plan
-                            <br>
-                            Something Amazing
-                        </h3>
-                    </div>
-    
-                </aside>
-           </main>
+            </div>
+        </section>
 
 
             <iframe
