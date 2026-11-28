@@ -257,10 +257,11 @@ a {
     flex-direction: column;
 }
 
-.dovey .col button {
+.dovey .col-6 button {
     border-radius: 6px;
     background-color: #F99B37;
     color: white;
+        margin-bottom: 20px;
 }
 
 .dovey .col button:hover {
@@ -421,4 +422,10 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 5px;
+}
+
+@media(max-width: 425px) {
+    .dovey {
+
+    }
 }
